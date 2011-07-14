@@ -1,4 +1,4 @@
-CHSegmentedControl.js
+EMSegmentedControl.js
 
 Description: A drop-in replacement for standard input radio matrices, that creates a toggleable segmented control.
 
@@ -11,13 +11,13 @@ Contact: collin@syropia.net
 Version: 0.9
 
 
-**What is CHSegmentedControl?**
+**What is EMSegmentedControl?**
 
-CHSegmentedControl is a drop-in replacement for standard HTML radio groups that aims at the idea of selectable segments instead of radio buttons.
+EMSegmentedControl is a drop-in replacement for standard HTML radio groups that aims at the idea of selectable segments instead of radio buttons.
 
 **Neat! How do I use it?**
 
-1. Be sure to include the Jquery library, as well as the CHSegmentedControl javascript, and css file in your <head> tag. Make sure you load Jquery _before_ you load CHSegmentedControl.
+1. Be sure to include the Jquery library, as well as the EMSegmentedControl javascript, and css file in your <head> tag. Make sure you load Jquery _before_ you load EMSegmentedControl.
 2. Now you must initialize the plugin. You're actually going to apply the plugin to a containing `<div>`. So make sure to wrap each radio group in a div tag and give it a class or id. Please see the demo page on proper structure.
 
 **I can't see my original radio buttons anymore. How is the value going to be stored?**

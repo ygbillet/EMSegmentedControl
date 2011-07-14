@@ -1,4 +1,4 @@
-/*CHSegmentedControl.js
+/*EMSegmentedControl.js
 Description: A drop-in replacement for standard input radio matrices, that creates a toggleable segmented control.
 Author: Collin Henderson
 Website: http://syropia.net
@@ -11,7 +11,7 @@ Version: 0.9
     $.fn.extend({
 
 
-        CHSegmentedControl: function() {
+        EMSegmentedControl: function() {
 
             //Iterate over the current set of matched elements
             return this.each(function() {
