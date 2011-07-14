@@ -23,17 +23,12 @@ Version: 0.9
 				$markup.append('</div>');
 				$markup.insertAfter($(this).children('label:last'));
                 $(this).children('input,label').hide();
-				var modifiedIndex;
                 $('div.segmented_control span.segment').click(function() {
                     $(this).siblings().removeClass('active');
                     $(this).addClass('active');
-					modifiedIndex = $(this).index() * 3;
                     $(this).parent().parent().children('input:eq('+ $(this).index() +')').attr('checked', true);
 					
 			     });
-				$(this).children('input').click(function() {
-					console.log($(this).index());
-				});
 
             });
 
