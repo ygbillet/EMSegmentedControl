@@ -15,20 +15,20 @@ Version: 0.9
 
             //Iterate over the current set of matched elements
             return this.each(function() {
-                
-				var $markup = $('<div class="segmented_control">');
-				$(this).children('label').each(function(i) {
-					$markup.append('<span class="segment">'+$(this).text()+'</span>')
-				});
-				$markup.append('</div>');
-				$markup.insertAfter($(this).children('label:last'));
+
+                var $markup = $('<div class="segmented_control">');
+                $(this).children('label').each(function(i) {
+                    $markup.append('<span class="segment">' + $(this).text() + '</span>')
+                });
+                $markup.append('</div>');
+                $markup.insertAfter($(this).children('label:last'));
                 $(this).children('input,label').hide();
                 $('div.segmented_control span.segment').click(function() {
                     $(this).siblings().removeClass('active');
                     $(this).addClass('active');
-                    $(this).parent().parent().children('input:eq('+ $(this).index() +')').attr('checked', true);
-					
-			     });
+                    $(this).parent().parent().children('input:eq(' + $(this).index() + ')').attr('checked', true);
+
+                });
 
             });
 
