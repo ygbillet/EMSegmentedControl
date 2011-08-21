@@ -1,19 +1,21 @@
-EMSegmentedControl.js
-
+/*EMSegmentedControl.js
 Description: A drop-in replacement for standard input radio matrices, that creates a toggleable segmented control.
-
-Author: Collin Henderson
-
-Website: http://syropia.net
-
-Contact: collin@syropia.net
-
-Version: 0.9
+Based on work from : Collin Henderson - http://syropia.net - collin@syropia.net
+Modification : Yves-Gael Billet
+Version: 1.0
 
 
 **What is EMSegmentedControl?**
 
 EMSegmentedControl is a drop-in replacement for standard HTML radio groups that aims at the idea of selectable segments instead of radio buttons.
+
+**What is EMSegmentedControlExtend?**
+
+EMSegmentedControlExtend is based on EMSegmentedControl (Collin Henderson). It now support checkbox.
+
+**Difference between radiobutton and checkbox ?**
+
+Radio buttons allow only one selection whereas Checkboxs allow multiple selection.
 
 **Neat! How do I use it?**
 

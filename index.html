@@ -34,24 +34,31 @@
 <link rel="stylesheet" href="EMSegmentedControl.css" type="text/css" media="screen" charset="utf-8">
 	<script>
 	$(document).ready (function () {
-		$('.radio_group').EMSegmentedControl();
+		$('.radio_group').EMSegmentedControlRb();
+		$('.check_group').EMSegmentedControlCb();		
 	});
 	</script>
 </head>
 
 <body>
 	<div id="container">
-		<div class="radio_group">
-			<input type="radio" name="rdoTest" id="rdo1" value="15"><label for="rdo1">Test 1</label>
-			<input type="radio" name="rdoTest" id="rdo2" value="20"><label for="rdo2">Test 2</label>
-		  <input type="radio" name="rdoTest" id="rdo3" value="25"><label for="rdo3">Test 3</label>
+		<div class="check_group">
+			<input type="checkbox" name="check[]" id="a" value="a">
+			<label for="a">Value A</label>
+			<input type="checkbox" name="check[]" id="b" value="b">
+			<label for="b">Value B</label>
+			<input type="checkbox" name="check[]" id="c" value="c">
+			<label for="c">Value C</label>
+			<input type="checkbox" name="check[]" id="d" value="d">
+			<label for="d">Value D</label>
 		</div>
-		<div class="radio_group">
-			<input type="radio" name="rdoTest2" id="rdo4" value="30"><label for="rdo4">Test 4</label>
-			<input type="radio" name="rdoTest2" id="rdo5" value="35"><label for="rdo5">Test 5</label>
-			<input type="radio" name="rdoTest2" id="rdo6" value="35"><label for="rdo6">Test 6</label>
-		  <input type="radio" name="rdoTest2" id="rdo7" value="40"><label for="rdo7">Test 7</label
-			<input type="radio" name="rdoTest2" id="rdo8" value="45"><label for="rdo8">Test 8</label>
+		<div class="radio_group">	
+			<input type="radio" name="radio" id="1" value="1">
+			<label for="1">Value 1</label>
+			<input type="radio" name="radio" id="2" value="2">
+			<label for="2">Value 2</label>
+			<input type="radio" name="radio" id="3" value="3">
+			<label for="3">Value 3</label>
 		</div>
 	</div>
 </body>
